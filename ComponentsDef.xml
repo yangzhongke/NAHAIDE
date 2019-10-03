@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+	<Item id="ALabel" name="标签"
+		package="cn.com.agree.naha.designer.components.alabel"
+		icon="/icons/components/ALabel.gif" />
+
+	<Item id="AButton" name="按钮"
+		package="cn.com.agree.naha.designer.components.abutton"
+		icon="/icons/components/AButton.gif" />
+
+	<Item id="ACheckBox" name="复选按钮"
+		package="cn.com.agree.naha.designer.components.acheckbox"
+		icon="/icons/components/ACheckBox.gif" />
+
+	<Item id="AEdit" name="编辑框"
+		package="cn.com.agree.naha.designer.components.aedit"
+		icon="/icons/components/AEdit.gif" />
+
+	<Item id="ARadioButton" name="单选按钮"
+		package="cn.com.agree.naha.designer.components.aradiobtn"
+		icon="/icons/components/ARadioButton.gif" />
+
+	<Item id="AListBox" name="列表框"
+		package="cn.com.agree.naha.designer.components.alistbox"
+		icon="/icons/components/AListBox.gif" />
+
+	<Item id="AComboBox" name="下拉列表框"
+		package="cn.com.agree.naha.designer.components.acombobox"
+		icon="/icons/components/AComboBox.gif" />
+
+	<Item id="APasswordField" name="密码框"
+		package="cn.com.agree.naha.designer.components.apassword"
+		icon="/icons/components/APassword.gif" />
+
+	<Item id="AIntegerEdit" name="整数编辑框"
+		package="cn.com.agree.naha.designer.components.aintedit"
+		icon="/icons/components/AIntegerEdit.gif" />
+
+	<Item id="ADecimalEdit" name="金额编辑框"
+		package="cn.com.agree.naha.designer.components.adecimaledit"
+		icon="/icons/components/ADecimalEdit.gif" />
+
+	<Item id="ATable" name="表格"
+		package="cn.com.agree.naha.designer.components.atable"
+		icon="/icons/components/ATable.gif" />
+	<Item id="ABizComboBox" name="双列下拉框"
+		package="cn.com.agree.naha.designer.components.abizcombobox"
+		icon="/icons/components/ABizComboBox.gif" />
+	<Item id="ARectAngle" name="方框"
+		package="cn.com.agree.naha.designer.components.arectangle"
+		icon="/icons/components/ARectAngle.gif" />
+	<Item id="AMultiLineLabel" name="多行标签框"
+		package="cn.com.agree.naha.designer.components.amlinelabel"
+		icon="/icons/components/AMultiLineLabel.gif" />
+	<Item id="AMaskEdit" name="掩码框"
+		package="cn.com.agree.naha.designer.components.amaskedit"
+		icon="/icons/components/AMaskEdit.gif" />
+
+	<Item id="AHLine" name="横线"
+		package="cn.com.agree.naha.designer.components.ahline"
+		icon="/icons/components/AHLine.gif" />
+</Config>

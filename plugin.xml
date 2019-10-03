@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+   <extension point="org.eclipse.ui.editors">
+      <editor id="cn.com.agree.naha.designer.uieditor"
+            name="NAHA界面编辑器"
+            default="true"
+            icon="icons/uieditor.gif"
+            extensions="py"
+            contributorClass="cn.com.agree.naha.designer.ui.FormActionBarContributor"
+            class="cn.com.agree.naha.designer.ui.FormMultiPageEditor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <category id="cn.com.agree.naha" name="赞同NAHAIDE"/>
+      <wizard id="cn.com.agree.naha.designer.wizard.new.file"
+            name="交易编辑器"
+            icon="icons/uieditor.gif"
+            category="cn.com.agree.naha"
+            class="cn.com.agree.naha.designer.ui.FormCreationWizard">
+         <description>Wizard for creating a new NAHA UI.</description>
+         <selection class="org.eclipse.core.resources.IResource">
+         </selection>
+      </wizard>
+   </extension>
+</plugin>
